@@ -208,8 +208,7 @@ static BOOL isSelfCall(void)
 
 - (BOOL)startAccessingSecurityScopedResource
 {
-    %orig;
-    return YES;
+    return %orig;
 }
 
 %end
